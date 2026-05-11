@@ -1,0 +1,16 @@
+{
+  "name": "transcribe-speech",
+  "version": "1.0.0",
+  "description": "Azure AI Foundry speech recognition (STT) using gpt-4o-mini-transcribe",
+  "main": "transcribe-speech.js",
+  "type": "module",
+  "scripts": {
+    "start": "node transcribe-speech.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "open": "^10.1.0",
+    "openai": "^4.77.0"
+  }
+}

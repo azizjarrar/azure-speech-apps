@@ -1,0 +1,16 @@
+{
+  "name": "generate-speech",
+  "version": "1.0.0",
+  "description": "Azure AI Foundry speech synthesis (TTS) using gpt-4o-mini-tts",
+  "main": "generate-speech.js",
+  "type": "module",
+  "scripts": {
+    "start": "node generate-speech.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "open": "^10.1.0",
+    "openai": "^4.77.0"
+  }
+}

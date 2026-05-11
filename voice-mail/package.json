@@ -1,0 +1,16 @@
+{
+  "name": "voice-mail",
+  "version": "1.0.0",
+  "description": "Azure AI Speech voice mail assistant - TTS and STT via Azure Speech SDK",
+  "main": "voice-mail.js",
+  "type": "module",
+  "scripts": {
+    "start": "node voice-mail.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "microsoft-cognitiveservices-speech-sdk": "^1.42.0",
+    "open": "^10.1.0"
+  }
+}
