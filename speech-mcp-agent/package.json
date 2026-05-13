@@ -1,0 +1,16 @@
+{
+  "name": "speech-mcp-agent",
+  "version": "1.0.0",
+  "description": "Azure AI Foundry speech synthesis via Speech MCP agent (gpt-4.1)",
+  "main": "speech-mcp-agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "node speech-mcp-agent.js"
+  },
+  "dependencies": {
+    "@azure/ai-projects": "^1.0.0",
+    "@azure/identity": "^4.4.1",
+"dotenv": "^16.4.5",
+    "openai": "^4.77.0"
+  }
+}
