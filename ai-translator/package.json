@@ -1,0 +1,16 @@
+{
+  "name": "ai-translator",
+  "version": "1.0.0",
+  "description": "Azure AI text and speech translation using Azure Translator and Azure Speech SDKs",
+  "type": "module",
+  "scripts": {
+    "text":   "node translate-text.js",
+    "speech": "node translate-speech.js"
+  },
+  "dependencies": {
+    "@azure-rest/ai-translation-text":      "^1.0.1",
+    "@azure/identity":                      "^4.4.1",
+    "dotenv":                               "^16.4.5",
+    "microsoft-cognitiveservices-speech-sdk": "^1.43.0"
+  }
+}
